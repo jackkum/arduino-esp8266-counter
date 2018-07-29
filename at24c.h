@@ -21,7 +21,7 @@ extern "C" {
 // specified below)
 
 // address can be from 0x50-0x57 depending on address pins A0-A2
-#define AT24C_ADDR 0x50
+#define AT24C_ADDR 0x57
 #define AT24C_PAGESIZE 0x20
 
 bool ICACHE_FLASH_ATTR at24c_readBytes(uint16 addr, uint8 *data, uint16 len);
